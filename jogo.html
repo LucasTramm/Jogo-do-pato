@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matar o Pato</title>
+  <script src="jogo.js"></script>
+
+</head>
+<body onload="iniciajogo()">
+
+  <div style="float:left; width:auto; height: 698px; border: solid 1px;">
+    <table border="1">
+      <tr>
+        <td>
+          <img src="img/pato.png" alt="">
+        </td>
+        <td>
+          <span id="patos_vivos" style="font-size: 40px"></span>
+        </td>
+      </tr>
+    </table>
+
+    <br>
+
+    <table border="1">
+      <tr>
+        <td>
+          <img src="img/pato_morto.png" alt="">
+        </td>
+        <td>
+          <span id="patos_mortos" style="font-size: 40px"></span>
+        </td>
+      </tr>
+    </table> 
+
+
+    <br>
+
+
+      <table border="1" style="width: 145px; height: 135px;">
+        <tr>
+          <td style="background: url(img/cronometro.png); text-align: center;">
+            <span id="cronometro" style="color:red; font-weight: bold; font-size: 30px;"></span>
+          </td>
+        </tr>
+      </table>
+
+
+
+
+  </div>
+
+  <div id="cenario" style="float:left; width: 900px;  height: 700px; background: url('img/cenario2.png'); background-position: bottom;"></div>
+
+
+
+  
+</body>
+</html>
